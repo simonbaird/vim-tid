@@ -1,13 +1,14 @@
 # vim-tid
+
 A tiddler syntax file for the VIM editor.
 
 This is a rough syntax file that need some tuning.  Please pull request.
 
 ## Installation
 
-### Unix
+### Installing manually
 
-Install `tid.vim` into `~/.vim/syntax/`
+Copy `syntax/tid.vim` into `~/.vim/syntax/`
 
 Append the following lines your `.vimrc` file:
 
@@ -18,4 +19,15 @@ Append the following lines your `.vimrc` file:
 
     syntax on
 
+### Using the Vundle plugin manager
 
+Add this to your `~/.vimrc` in the usual place.
+
+    Plugin 'https://gitlab.com/gsd5-tiddlywiki/vim-tid'
+
+Then install it like this:
+
+    vim '+PluginInstall! vim-tid'
+
+It should work just as well with other plugin managers. Consult the plugin
+manager's documentation if you don't know what to do.
