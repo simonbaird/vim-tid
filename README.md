@@ -7,7 +7,7 @@ This is a rough syntax file that need some tuning.  Please pull request.
 
 ### Unix
 
-Install `vim.tid` into `~/.vim/syntax/` 
+Install `tid.vim` into `~/.vim/syntax/`
 
 Append the following lines your `.vimrc` file:
 
